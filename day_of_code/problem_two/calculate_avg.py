@@ -9,6 +9,7 @@ def find_average(array):
 """
 
 def find_average(array):
+    """Calculates the average of a given array"""
     if len(array) == 0:
         return 0
     return sum(array) / len(array)

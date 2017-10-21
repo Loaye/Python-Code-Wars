@@ -10,6 +10,7 @@ def get_middle(s):
 
 
 def get_middle(s):
+    """Gets the middle letter of a string - even returns 2 middles"""
     if len(s) % 2 == 0:
         return s[int(len(s) / 2) - 1] + s[int(len(s) / 2)]
     else:
