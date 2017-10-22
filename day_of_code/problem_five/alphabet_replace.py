@@ -7,6 +7,7 @@ def alphabet_position(text):
     return ' '.join(str(ord(c) - 96) for c in text.lower() if c.isalpha())
 """
 
+
 def alphabet_position(text):
     """Converts a string into a new one with letters corresponding to index value"""
     small = text.lower()
